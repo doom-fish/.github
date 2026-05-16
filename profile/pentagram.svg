@@ -4,11 +4,6 @@
   <title>doom-fish</title>
 
   <defs>
-    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
-      <stop offset="0%"   stop-color="#1a0606"/>
-      <stop offset="60%"  stop-color="#0a0101"/>
-      <stop offset="100%" stop-color="#000000"/>
-    </radialGradient>
     <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
       <feGaussianBlur stdDeviation="2"/>
       <feMerge>
@@ -17,8 +12,6 @@
       </feMerge>
     </filter>
   </defs>
-
-  <rect width="512" height="512" fill="url(#bg)"/>
 
   <g filter="url(#glow)">
 
