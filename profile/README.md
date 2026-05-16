@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/doom-fish/.github/main/profile/doom-bar.svg" alt="doom-fish" width="100%"/>
+</p>
+
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/doom-fish/.github/main/profile/pentagram.svg" alt="doom-fish" width="180"/>
