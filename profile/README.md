@@ -47,7 +47,6 @@ If you've ever wanted to drive Apple's screen capture, on-device LLMs, computer 
 - [`axuielement-rs`](https://github.com/doom-fish/axuielement-rs) — Drive other apps' UIs via the Accessibility API.
 
 ### 🧱 Foundations
-- [`cidre`](https://github.com/doom-fish/cidre) — Umbrella Apple-framework bindings used across the suite.
 - [`apple-cf-rs`](https://github.com/doom-fish/apple-cf-rs) — Shared Core\* frameworks (CoreGraphics, IOSurface, Dispatch, …).
 - [`core-frameworks`](https://github.com/doom-fish/core-frameworks) — Lower-level Apple core wrappers.
 - [`networkframework-rs`](https://github.com/doom-fish/networkframework-rs) — Apple's `Network.framework`.
