@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="doom-fish — inverted pentagram inside a circle">
+  <title>doom-fish</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#1a0606"/>
+      <stop offset="70%" stop-color="#080000"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="24" ry="24" fill="url(#bg)"/>
+
+  <g fill="none" stroke="#e10600" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" filter="url(#glow)">
+    <circle cx="256" cy="256" r="232"/>
+    <path d="M256,488 L138.4,94.2 L446.2,317.8 L65.8,317.8 L373.6,94.2 Z"/>
+  </g>
+</svg>
