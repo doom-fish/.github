@@ -48,7 +48,6 @@ If you've ever wanted to drive Apple's screen capture, on-device LLMs, computer 
 
 ### 🧱 Foundations
 - [`apple-cf-rs`](https://github.com/doom-fish/apple-cf-rs) — Shared Core\* frameworks (CoreGraphics, IOSurface, Dispatch, …).
-- [`core-frameworks`](https://github.com/doom-fish/core-frameworks) — Lower-level Apple core wrappers.
 - [`networkframework-rs`](https://github.com/doom-fish/networkframework-rs) — Apple's `Network.framework`.
 - [`apple-log-rs`](https://github.com/doom-fish/apple-log-rs) — `os_log`, with Console.app and the `log` CLI integration.
 
