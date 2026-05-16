@@ -5,7 +5,7 @@
 # doom-fish
 
 **Safe, idiomatic Rust bindings for Apple's macOS frameworks.**
-*Zero‑Swift. One crate per framework. All the power, none of the ceremony.*
+*One crate per framework. All the power, none of the ceremony.*
 
 [doom.fish](https://doom.fish) · [open an issue](https://github.com/doom-fish/.github/issues) · [per@doom.fish](mailto:per@doom.fish)
 
@@ -15,7 +15,7 @@
 
 ## What is this?
 
-A Stockholm-based shop building the Rust crates we wished existed when we started writing macOS apps in Rust. Each crate wraps a single Apple framework with a focused, safe API — no Swift toolchain in your build, no half-baked FFI, no surprises at runtime.
+The Rust crates we wished existed when we started writing macOS apps in Rust. Each crate wraps a single Apple framework with a focused, safe API — no half-baked FFI, no surprises at runtime.
 
 If you've ever wanted to drive Apple's screen capture, on-device LLMs, computer vision, accessibility, or HID input from Rust without rolling your own bindings, you're in the right place.
 
@@ -58,7 +58,6 @@ If you've ever wanted to drive Apple's screen capture, on-device LLMs, computer 
 
 ## Design principles
 
-- **Zero-Swift.** Pure Objective‑C runtime calls. No Swift toolchain in your build.
 - **One crate, one framework.** Pull in only what you need.
 - **Safe by default.** Lifetimes, ownership and `Send` / `Sync` modelled honestly.
 - **macOS-first, honest about it.** We target current macOS releases and say so up front.
@@ -70,5 +69,5 @@ Issues and PRs are welcome on any crate. If you're missing a wrapper for an Appl
 ---
 
 <div align="center">
-<sub>made with ☠️ in Stockholm · <a href="https://doom.fish">doom.fish</a></sub>
+<sub>made with ☠️ · <a href="https://doom.fish">doom.fish</a></sub>
 </div>
