@@ -64,6 +64,7 @@ If you've ever wanted to drive Apple's screen capture, on-device LLMs, computer 
 - [`directmanipulation-rs`](https://github.com/doom-fish/directmanipulation-rs) — DirectManipulation: the manager, viewports, their content and the viewport event handler.
 - [`graphicscapture-rs`](https://github.com/doom-fish/graphicscapture-rs) — Windows.Graphics.Capture: monitor capture items, Direct3D 11 frame pools and capture sessions.
 - [`mediafoundation-rs`](https://github.com/doom-fish/mediafoundation-rs) — The media engine, loaded at run time: playback into Direct3D 11 textures.
+- [`xaudio2-rs`](https://github.com/doom-fish/xaudio2-rs) — XAudio2 2.9, loaded at run time: the engine, mastering and source voices, owned buffers and the engine and voice callbacks.
 - [`uiautomation-rs`](https://github.com/doom-fish/uiautomation-rs) — UI Automation providers: provider interfaces, events and identifiers.
 - [`accesskit-windows-rs`](https://github.com/doom-fish/accesskit-windows-rs) — An AccessKit adapter for UI Automation, built on the crates above.
 - [`xinput-rs`](https://github.com/doom-fish/xinput-rs) — XInput gamepads: state, buttons, triggers and sticks.
