@@ -50,14 +50,29 @@ If you've ever wanted to drive Apple's screen capture, on-device LLMs, computer 
 - [`apple-cf-rs`](https://github.com/doom-fish/apple-cf-rs) — Shared Core\* frameworks (CoreGraphics, IOSurface, Dispatch, …).
 - [`networkframework-rs`](https://github.com/doom-fish/networkframework-rs) — Apple's `Network.framework`.
 - [`tls-rs`](https://github.com/doom-fish/tls-rs) — Blocking TLS client streams on the TLS of the operating system: SecureTransport on macOS and Schannel on Windows.
+- [`commoncrypto-rs`](https://github.com/doom-fish/commoncrypto-rs) — SHA-256 and SHA-1 through CommonCrypto on macOS.
 - [`apple-log-rs`](https://github.com/doom-fish/apple-log-rs) — `os_log`, with Console.app and the `log` CLI integration.
+
+### WebRTC
+
+These public repositories provide WebRTC protocols and an Opus codec. Some crates are not available on crates.io.
+
+- [`rtc-rs`](https://github.com/doom-fish/rtc-rs) — A WebRTC connection that combines ICE, DTLS, SRTP and RTP.
+- [`ice-rs`](https://github.com/doom-fish/ice-rs) — ICE candidate collection and connection checks.
+- [`sdp-rs`](https://github.com/doom-fish/sdp-rs) — Parse and build SDP session descriptions.
+- [`rtp-rs`](https://github.com/doom-fish/rtp-rs) — RTP and RTCP packets, feedback messages and media payloads.
+- [`stun-rs`](https://github.com/doom-fish/stun-rs) — STUN messages and attributes.
+- [`turn-rs`](https://github.com/doom-fish/turn-rs) — TURN allocations, permissions and channel bindings.
+- [`dtls-rs`](https://github.com/doom-fish/dtls-rs) — DTLS 1.2 handshakes and secure datagrams.
+- [`srtp-rs`](https://github.com/doom-fish/srtp-rs) — SRTP and SRTCP packet protection.
+- [`opus-rs`](https://github.com/doom-fish/opus-rs) — Encode and decode audio with Opus.
 
 ### 🪟 Windows
 - [`win-com-rs`](https://github.com/doom-fish/win-com-rs) — The COM core: GUIDs, HRESULT errors, interface pointers, apartments, server objects, BSTR, VARIANT and PROPVARIANT.
 - [`win-kernel-rs`](https://github.com/doom-fish/win-kernel-rs) — kernel32: handles, named pipes, overlapped I/O, events, processes, threads, the thread pool, memory, time and locale.
 - [`win-user-rs`](https://github.com/doom-fish/win-user-rs) — user32: windows, input, monitors, DPI, IME, DWM, the clipboard and the OS version.
 - [`win-shell-rs`](https://github.com/doom-fish/win-shell-rs) — The shell: known folders, shell links, property stores, dialogs, jump lists and drag and drop.
-- [`win-security-rs`](https://github.com/doom-fish/win-security-rs) — Process tokens, SIDs, security descriptors, credentials and system random numbers.
+- [`win-security-rs`](https://github.com/doom-fish/win-security-rs) — Process tokens, SIDs, security descriptors, credentials, system random numbers, SHA-256 and SHA-1.
 - [`win-registry-rs`](https://github.com/doom-fish/win-registry-rs) — String values under predefined and opened registry keys.
 - [`winrt-desktop-rs`](https://github.com/doom-fish/winrt-desktop-rs) — WinRT for desktop apps: HSTRING, activation, UI settings, XML documents and toast notifications.
 - [`directx11-rs`](https://github.com/doom-fish/directx11-rs) — Direct3D 11, DXGI and DirectComposition: devices, pipelines, swap chains and run-time shader compilation.
@@ -69,6 +84,7 @@ If you've ever wanted to drive Apple's screen capture, on-device LLMs, computer 
 - [`uiautomation-rs`](https://github.com/doom-fish/uiautomation-rs) — UI Automation providers: provider interfaces, events and identifiers.
 - [`accesskit-windows-rs`](https://github.com/doom-fish/accesskit-windows-rs) — An AccessKit adapter for UI Automation, built on the crates above.
 - [`xinput-rs`](https://github.com/doom-fish/xinput-rs) — XInput gamepads: state, buttons, triggers and sticks.
+- [`win-icu-rs`](https://github.com/doom-fish/win-icu-rs) — Unicode conversion and text properties with the ICU library that Windows provides.
 
 ### 🐟 See it all together
 - [`doom-fish-examples`](https://github.com/doom-fish/doom-fish-examples) — Cross-crate examples that wire the suite up end-to-end.
